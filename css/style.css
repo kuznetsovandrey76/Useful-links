@@ -57,6 +57,30 @@ ul {
 	font-family: sans-serif;
 }
 
+.hotkeys .chapter_link {
+	background: #F4F4FA;
+	border-left: 5px solid #9999FF;
+}
+
+.edu .chapter_link {
+	background: #FCFAEE; 
+	border-left: 5px solid #E0CB52;
+}
+
 .chapter_link a {
 	margin-left: 5px;
+}
+footer {
+	text-align: center;
+}
+footer img {
+	height: 30px;
+	margin: 5px 0;
+}
+a.footer {
+	border-bottom: none;
+}
+a.footer:hover {
+	background-color: white;
+}
 }
