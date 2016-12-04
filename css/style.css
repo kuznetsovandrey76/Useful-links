@@ -57,7 +57,7 @@ ul {
 	font-family: sans-serif;
 }
 
-.hotkeys .chapter_link {
+.program .chapter_link {
 	background: #F4F4FA;
 	border-left: 5px solid #9999FF;
 }
@@ -83,4 +83,4 @@ a.footer {
 a.footer:hover {
 	background-color: white;
 }
-}
+
