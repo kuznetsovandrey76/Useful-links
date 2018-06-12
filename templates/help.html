@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Help{% endblock %}
+{% block content %}
+    <p>Welcome to HELP page.</p>
+    <ol class='help'>
+    	<li>В пустой дериктории <span>virtualenv env</span></li>
+    	<li><span>cd env/Scripts</span></li>
+    	<li><span>activate</span></li>
+    	<li><span>cd ../..</span></li>
+    	<li><span>pip install flask</span></li>
+    	<li><span>pip install gunicorn</span></li>
+    	<li><span>touch Procfile</span></li>
+    	<li>В Procfile записываем <span>web: gunicorn project:app</span>, где project - название основного файла в директории (ex: project.py)</li>
+    	<li><span>pip freeze > requirements.txt</span></li>
+        <li>Заливаем в Heroku</li>
+    	<li><span>git push heroku master</span></li>
+    </ol>
+    <a href="/">go home</a>
+{% endblock %}

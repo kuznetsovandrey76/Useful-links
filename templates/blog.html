@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}Blog{% endblock %}
+{% block content %}
+    <h3>Welcome to Blog page.</h3>
+    {% for item in result %}
+		<p>{{ item.text_db }}</p>
+	{% endfor %}
+{% endblock %}

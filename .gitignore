@@ -1,4 +1,4 @@
-cgi-bin
-robots.txt
-sitemap.xml
-.htaccess
+env
+temp
+__pycache__
+mymodule.py

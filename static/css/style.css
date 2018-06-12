@@ -8,8 +8,27 @@ body {
 	margin: 0 auto;
 }
 
-header {
+.header {
 	text-align: center;
+}
+
+.header__a {
+	text-decoration: none;
+}
+
+.header__a:hover {
+	background-color: none;
+	border-bottom: none;
+}
+
+.header__ul li{
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.header__ul a {
+	text-decoration: none;	
+	
 }
 
 .main {
@@ -30,12 +49,12 @@ header {
 	text-transform: lowercase;
 }
 
-a {
+.article a {
 	color: #D93B00;
 	text-decoration: none;
 	border-bottom: 1px solid gray;
 }
-a:hover {
+.article a:hover {
 	background-color: rgba(191, 191, 191, .25);
 	border-bottom: 2px solid gray;
 }
@@ -84,3 +103,12 @@ a.footer:hover {
 	background-color: white;
 }
 
+.help {
+	margin-left: 20px;
+}
+
+
+
+.help span {
+	background: lightgray;
+}

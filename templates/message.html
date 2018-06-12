@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Message{% endblock %}
+{% block content %}
+    <p>Write a message</p>
+    <!-- <p>Hello {{ name }}.</p> -->
+	<form method="POST" action="/process">
+	    {{ form.csrf_token }}
+	    {{ form.text_form.label }} {{ form.text_form(size=30) }}
+	    <input type="submit" value="Sent">
+	</form>
+{% endblock %}
